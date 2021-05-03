@@ -1,0 +1,21 @@
+{% comment %} {% extends "home/home_layout.html" %}
+
+{% block head %}
+<h1> Welcome!!!</h1>
+{% endblock head %}
+
+{% block body %}
+<img src="https://lh3.googleusercontent.com/x9vuyYcmjtnzV351Z1Li5dA1tdjd8EJtieYoekttFu0UfxTvQPqiJnqoh-BFTdCR03EekMBNBx8qaA9a2gWCi5EZQsit=w1000" alt="pizza image" style="width: 90%; height: auto;padding: 5px 50px;" >
+
+<h2>API URLs</h2>
+    <p class="pizza-api">
+        <ul>
+            <li><a href="{% url 'home:pizza_list' %}">List all Pizza</a></li>
+            <li><a href="{% url 'home:create_pizza' %}">Create Pizza</a></li> 
+        </ul>
+    </p>
+
+{% endblock body %}
+
+{% block foot %}
+{% endblock foot %} {% endcomment %}
