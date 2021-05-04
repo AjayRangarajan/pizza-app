@@ -87,16 +87,6 @@ WSGI_APPLICATION = 'pizza_app.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'myFirstDatabase',
-#         'HOST': 'mongodb+srv://ajayrangarajan:N$RrG843#1234s@cluster0.iyd1p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-#         'USER': 'ajayrangarajan',
-#         'PASSWORD': 'N$RrG843#1234s',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
